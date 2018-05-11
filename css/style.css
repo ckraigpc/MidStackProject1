@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body{
-  background: #24272E;
+  /* background: #24272E; */
 }
 header{
   background:white;
@@ -67,4 +67,16 @@ header > h1{
   margin: 0 15px;
   border-radius: 50%;
   padding: 17px;
+}
+.green-glow{
+  border: 1px solid green;
+}
+div.choice:hover{
+  cursor: pointer;
+}
+div.footer{
+  font-size:20px;
+  color: white;
+  font-family:sans-serif; 
+  text-align: center;
 }
